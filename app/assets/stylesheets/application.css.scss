@@ -51,7 +51,17 @@ h1, h2, h3 {
     &:hover {
         color: whitesmoke;
         opacity: 0.8;
+}}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: whitesmoke;
 }
+
+.navbar-default .navbar-toggle {
+    border: 2px solid whitesmoke;
+    &:hover, &:focus {
+            background-color: #3d72b4;
+    }
 }
 
 // Home Page Styles
